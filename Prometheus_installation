@@ -17,3 +17,13 @@
 # service prometheus-node-exporter status
 
 and check with the public_ip:9090
+
+# vi /etc/prometheus/prometheus.yml
+
+# vi prometheus.yml
+
+# service prometheus stop
+
+# prometheus --config.file=prometheus.yml
+
+# service prometheus start
