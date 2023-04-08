@@ -2,7 +2,7 @@
  
 # apt-get upgrade
 
-#sudo apt install Prometheus
+#sudo apt install prometheus
 
 # sudo systemctl start Prometheus
 
