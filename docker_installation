@@ -20,7 +20,7 @@ docker push username/imagename:latest
 
  FROM openjdk:11
  ADD target/name_of_jar_file.jar name_of_jar_file.jar
- ENTRYPONT ["java","-jar","/name_of_jar_file.jar"]
+ ENTRYPOINT ["java","-jar","/name_of_jar_file.jar"]
  EXPOSE default_port
  
  {creating Dockerfile with WAR}
